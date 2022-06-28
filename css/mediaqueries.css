@@ -1,0 +1,140 @@
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+	.footer-top { padding: 40px 0; }
+	.footer-social a { margin-right: 10px; }
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	
+	
+	.footer-top { padding: 40px 0; }
+	.footer-contact i { padding-right: 5px; }
+	.footer-social a { margin-right: 10px; }
+	
+
+
+}
+
+@media (max-width: 767px) {
+
+	
+	.footer-top { padding: 40px 0; text-align: center; }
+	.footer-contact i { padding-right: 5px; }
+	.footer-bottom, .footer-social { text-align: center; }
+	.footer-social a { margin: 0 10px; }
+
+	.welcome3 {
+		font-size: 18px;
+	}
+
+
+	.welcome2{
+		font-size: 25px;
+	}
+
+	.card-grid-space{
+		margin-top: -47px;
+	}
+	
+}
+@media screen and (max-width: 360px){
+	.back3{
+	  width: 263px;
+	}
+  }
+
+@media (max-width: 320px){
+
+
+	.mind {
+		font-size: 40px;
+	}
+	
+	.welcome {
+		font-size: 20px;
+	}
+	.tilesWrap li{
+		min-width: 295px;
+	}
+} 
+
+@media (max-width: 463px){
+	.mind {
+		font-size: 40px;
+	}
+	
+	.welcome {
+		font-size: 20px;
+	}
+	.card0tag2 {
+		font-size: 20px;
+	}
+	.msg{
+		font-size: 14px;
+	}
+	.msg2{
+		font-size: 14px;
+	}
+	.msg4{
+		font-size: 14px;
+	}
+
+	.logo5{
+		font-size: 15px;
+	}
+
+	.list6{
+		font-size: 13px;
+	}
+
+	.back1{
+		height: 15rem;
+	}
+	.tilesWrap li {
+		min-width: 280px;
+	}
+
+}
+
+
+@media (max-width: 392px){
+	.accordion .item .item-header h2 button.btn.btn-link{
+		font-size: 12px;
+	}
+
+	.accordion .item .item-header h2 i{
+		
+		width: 37px;
+		height: 28px;
+	}
+}
+
+@media screen and (min-width: 768px)
+{
+.movie_desc2 {
+    width: 90%;
+
+}
+
+}
+
+@media (min-width: 768px) and  (max-width: 988px){
+	.footer-about img.logo-footer {
+		max-width: 194px;
+}
+}
+
+@media (min-width: 576px) and  (max-width: 1206px){
+	
+.our-team .social {
+
+    bottom: -324px;
+}
+}
+
+
+

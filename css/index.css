@@ -1,0 +1,275 @@
+/******************* Navbar ***************/
+
+.bgcolor_home {
+    background: transparent;
+}
+.bgcolor{
+    background-color: #223750 !important;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white ;
+    padding-bottom: 0px;
+    white-space: nowrap;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-link:hover {
+    /* text-decoration: underline; */
+    color: white !important;
+}
+
+
+
+
+.nav-item:hover{
+    border-bottom: white 1px solid;
+    padding-bottom:3px;
+}
+
+
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.navbar-collapse .navbar-nav {
+    align-items: center;
+}
+
+
+#navbar {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+.bgcolor_home.scrolled {
+    background-color: #223750 !important;
+}
+
+@media (min-width:991px) {
+    #navbar {
+        padding: 5px 50px !important;
+    }
+
+}
+@media (max-width:991px) {
+        .bgcolor_home {
+                background: #223750 !important;
+            }
+}
+
+@media (min-width:1130px) and (max-width:1176px) {
+    .nav-link {
+        font-size: 15px;
+    }
+
+}
+
+@media (min-width:1083px) and (max-width:1129px) {
+    .nav-link {
+        font-size: 14px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1083px) {
+    .nav-link {
+        font-size: 12px;
+    }
+}
+
+
+
+
+/******************* Navbar End ***************/
+
+
+
+/***** Footer *****/
+
+.footer-top {
+    padding: 60px 0;
+    background: #333;
+    text-align: left;
+    color: #aaa;
+}
+
+.footer-top h3 {
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.footer-about img.logo-footer {
+    max-width: 250px;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+.footer-about p a {
+    color: #aaa;
+    border-bottom: 1px dashed #666;
+}
+
+.footer-about p a:hover,
+.footer-about p a:focus {
+    color: #fff;
+    border-color: #aaa;
+}
+
+.footer-contact p {
+    word-wrap: break-word;
+}
+
+.footer-contact i {
+
+        padding-right: 10px;
+        font-size: 25px;
+        color: #c9c0c0;
+
+}
+
+.footer-contact p a {
+
+        color: #d9d2d2;
+        text-decoration: none;
+        font-size: 20px;
+
+}
+
+.face{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.footer-contact p a:hover,
+.footer-contact p a:focus {
+    color: #fff;
+    border-color: #aaa;
+    text-decoration: underline;
+
+
+}
+.follow{
+    background: linear-gradient(180deg, #2f4f81 0%, #ffc038 30%,
+    #49ff31 90%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+
+.footer-social a {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 8px;
+    color: #f9ebeb;
+    border: 0;
+}
+
+.footer-social a:hover,
+.footer-social a:focus {
+    color: rgb(255, 255, 255);
+    border: 0;
+}
+
+.footer-social i {
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+.footer-bottom {
+    padding: 15px 0;
+    background: #444;
+    text-align: left;
+    color: #aaa;
+}
+
+.footer-copyright p {
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+.footer-copyright a {
+    color: #fff;
+    border: 0;
+}
+
+.footer-copyright a:hover,
+.footer-copyright a:focus {
+    color: rgb(255, 255, 255);
+     text-decoration: none;
+}
+
+/* footer navbar */
+.footer .navbar {
+    padding: 0 10px;
+    background: #444;
+    backface-visibility: hidden;
+}
+
+.navbar-dark .navbar-nav {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    border: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #aaa;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #aaa;
+    outline: 0;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.scroll-link {
+    font-size: 25px;
+}
+
+.footer-top h2,
+h3 {
+    font-style: italic;
+}
+
+.footer-menu {
+    text-align: end;
+    text-decoration: none;
+}
+
+.scroll-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.scroll-link:hover {
+    color: rgba(170, 170, 170, 0.521);
+}
+
+@media (max-width:463px) {
+    .logo5 {
+            font-size: 15px;
+        }
+}
+
+@media (min-width: 768px) and (max-width: 988px) {
+    .footer-about img.logo-footer {
+        max-width: 194px !important;
+    }
+}
